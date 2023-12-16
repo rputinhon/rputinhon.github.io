@@ -1,90 +1,115 @@
-<!doctype html>
-<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<html>
 <head>
-<meta name="viewport" content="width = 1050, user-scalable = no" />
-<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
-<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
 </head>
-<body>
+<body style="background-color: #4e545d;">
+<div class="row">
+<div class="perfil">
+<img class="imageperfil" src="./images/fotoperfil.jpg"/>
+<span style="color:white;font-family: sans-serif">Rodrigo Putinhon Barros</span>
 
-<div class="flipbook-viewport">
-	<div class="container">
-		<div class="flipbook">
-			<div style="background-image:url(pages/1.png)"></div>
-			<div style="background-image:url(pages/2.png)"></div>
-			<div style="background-image:url(pages/3.png)"></div>
-			<div style="background-image:url(pages/4.png)"></div>
-			<div style="background-image:url(pages/5.png)"></div>
-			<div style="background-image:url(pages/6.png)"></div>
-			<div style="background-image:url(pages/7.png)"></div>
-			<div style="background-image:url(pages/8.png)"></div>
-			<div style="background-image:url(pages/9.png)"></div>
-			<div style="background-image:url(pages/10.png)"></div>
-			<div style="background-image:url(pages/11.png)"></div>
-			<div style="background-image:url(pages/12.png)"></div>
-			<div style="background-image:url(pages/13.png)"></div>
-			<div style="background-image:url(pages/14.png)"></div>
-			<div style="background-image:url(pages/15.png)"></div>
-			<div style="background-image:url(pages/16.png)"></div>
-			<div style="background-image:url(pages/17.png)"></div>
-			<div style="background-image:url(pages/18.png)"></div>
-<div style="background-image:url(pages/19.png)"></div>
-			<div style="background-image:url(pages/20.png)"></div>
-			<div style="background-image:url(pages/21.png)"></div>
-			<div style="background-image:url(pages/22.png)"></div>
-<div style="background-image:url(pages/23.png)"></div>
-<div style="background-image:url(pages/24.png)"></div>
 
-		</div>
-	</div>
+<a class="link" href="./assets/curriculun.pdf" style="margin-top:10px;padding-top: 10px;
+    display: inline-block;" target="blank">Currículo</a>
+
+<span href="rodrigoputinhon@outlook.com"   target="blank" style="margin-top:20px;color:white;font-family: sans-serif">rodrigoputinhon@outlook.com</span>
+
+
+<button class="button">DONATE</button>
 </div>
 
+<div class="card">
+<span style="padding-bottom:20px;font-family: sans-serif">CUBO é um jogo de tabuleiro eletrônico, o download é gratuito para windows.
+<p/>           
+<a class="link" href="./assets/dist_windows.rar"  target="blank">Download Game Cubo</a>
+  <span>
+<img class="image" src="./images/cubo.png" style="margin-top:15px;"/>
+<img class="image" src="./images/cubo_00.png"/>
+<img class="image" src="./images/cubo_54.png"/>
 
-<script type="text/javascript">
+</div>
+<div class="card">
+<span style="padding-bottom:20px;font-family: sans-serif">A Esfera Beta é um romance estilo ficção cientifica, procuro por uma editora<span>
+<p/> 
+<a class="link" href="./assets/aesferabeta.pdf"  target="blank">Leia A Esfera Beta</a>
+<img class="image" src="./images/book.png" style="margin-top:15px;"/>
+<img class="image" src="./images/book_00.png"/>
+<img class="image" src="./images/book_01.png"/>
 
-function loadApp() {
+</div>
+<div class="card">
+<span style="padding-bottom:20px;font-family: sans-serif">Taskbox é uma ferramenta incrível para gerenciamento de tarefas, em desenvolvimmento<span>
+<p/> 
+<a class="link" href="https://github.com/rputinhon/taskbox" target="blank">Vai ao Github</a>
+<img class="image" src="./images/taskbox.png" style="margin-top:15px;"/>
+<img class="image" src="./images/taskbox_00.png"/>
+<img class="image" src="./images/taskbox_01.png"/>
 
-	// Create the flipbook
+</div>
+<div class="card">
+<span style="padding-bottom:20px;font-family: sans-serif">Sentimentos é um livro de poemas, procuro poetas para escrever 100 poemas<span>
+<p/> 
+<a class="link" href="./sentimentos/index.html"  target="blank">Leia
+</a>
+<img class="image" src="./images/poemas.png" style="margin-top:15px;"/>
+<img class="image" src="./images/poemas_00.png"/>
+<img class="image" src="./images/poemas_01.png"/>
 
-	$('.flipbook').turn({
-			// Width
+</div>
+</div>
+<body>
+<html>
 
-			width:922,
-			
-			// Height
-
-			height:600,
-
-			// Elevation
-
-			elevation: 50,
-			
-			// Enable gradients
-
-			gradients: true,
-			
-			// Auto center this flipbook
-
-			autoCenter: true
-
-	});
+<style>
+.button{
+height:auto;
+border-radius:20px;
+margin-top:20px;
+padding:10px;
+}
+.imageperfil{
+border-radius:50%;
+width:200px;
+height:200px;
+margin-left:10px;
+margin-top:15px;
+margin-bottom:15px;
 }
 
-// Load the HTML4 version if there's not CSS transform
+.image{
+border-radius:15px;
+width:256px;
+height:256px;
+margin-bottom:10px;
+}
 
-yepnope({
-	test : Modernizr.csstransforms,
-	yep: ['../../lib/turn.js'],
-	nope: ['../../lib/turn.html4.min.js'],
-	both: ['css/basic.css'],
-	complete: loadApp
-});
+.row{
+display:flex;
+}
 
-</script>
+.perfil{
+width:212px;
+height:170px;
+border-radius:50%;
+text-align:center;
+margin-right:20px;
+}
 
-</body>
-</html>
+.card{
+background-color:whitesmoke;
+width:256px;
+border-radius:8px;
+padding:15px;
+margin:5px;
+text-align:center;
+-webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, .155)!important;
+box-shadow: 0 10px 10px rgba(0, 0, 0, .155)!important;
+}
+
+.link{
+color:blue;
+cursor:pointer;
+padding:15px;
+text-align:right;
+font-family: sans-serif;
+}
+</style>
